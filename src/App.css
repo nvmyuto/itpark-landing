@@ -1,0 +1,42 @@
+nav {
+    height: 10vh;
+    /* background: blueviolet; */
+}
+
+.main {
+    height: 90vh;
+}
+
+.shape1 {
+    width: 400px;
+    height: 400px;
+    background: #37e137;
+    bottom: -100px;
+    left: -100px;
+    border-radius: 50%;
+    filter: blur(100px);
+}
+
+.shape2 {
+    width: 700px;
+    height: 700px;
+    background: #37e137;
+    top: -90px;
+    right: -80px;
+    border-radius: 50%;
+    filter: blur(100px);
+}
+
+.start-btn {
+    letter-spacing: 2px;
+}
+
+.navbar .menu a {
+    border-bottom: 2px solid transparent;
+    transition: .4s;
+    padding-bottom: 5px;
+}
+
+.navbar .menu a:hover {
+    border-color: white;
+}
